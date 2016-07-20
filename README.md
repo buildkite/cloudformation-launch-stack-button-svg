@@ -6,6 +6,20 @@ A nice, resolution independent, SVG version of the [AWS CloudFormation "Launch S
 
 Initially made for the [Elastic CI Stack for AWS](https://github.com/buildkite/elastic-ci-stack-for-aws).
 
+## Usage
+
+You can use it in GitHub Readmes like so:
+
+```markdown
+![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=buildkite&templateURL=https://s3.amazonaws.com/my-great-stack.json)
+```
+
+or with plain ol’ HTML:
+
+```html
+<a href="https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=buildkite&templateURL=https://s3.amazonaws.com/my-great-stack.json"><img alt="Launch Stack" src="https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg"></a>
+```
+
 ## Source
 
 [Launch Stack.sketch](Launch Stack.sketch) (Sketch 3)
